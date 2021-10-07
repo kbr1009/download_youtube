@@ -4,7 +4,6 @@ from pytube import YouTube
 def input_info():
     print("urlを入力")
     url = input("→")
-    
     print("タイトルを入力")
     title = input("→")
     video = title + ".mp4"
